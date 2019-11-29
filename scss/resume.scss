@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "nav.scss";
+@import "resume-item.scss";
+@import "bootstrap-overrides.scss";
+
+.skill-icons {
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(130%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -o-filter: brightness(130%);
+        -ms-filter: brightness(130%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+    }
+}
+
+.list-inline-item {
+text-align: center;
+}
