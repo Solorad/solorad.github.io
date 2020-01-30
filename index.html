@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/lazysizes.min.js" async></script>
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -30,7 +31,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Evgenii Morenkov</span>
         <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile1.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2 lazyload" data-src="img/profile1.jpg" alt="Me">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -68,12 +69,11 @@
             <div class="subheading mb-5">
                 <a href="mailto:name@email.com">eugenemorenkov@gmail.com</a>
             </div>
-            <p class="lead mb-5">Go developer particularly interested in security, performance and availability.
-                Certified Kubernetes and MongoDB developer. Obsessed with high quality of both
-                application and its technical documentation.
+            <p class="lead mb-5">Go developer particularly interested in security, performance, and availability.
+                Certified Kubernetes and MongoDB developer. Obsessed with the high quality of both application and its technical documentation.
             <div class="social-icons">
                 <a href="https://www.upwork.com/freelancers/~01f956c7ab00fd3527">
-                    <img width="32" height="32" src="img/upwork.png" alt="">
+                    <img width="32" height="32" data-src="img/upwork.png" class="lazyload" alt="">
                 </a>
                 <a href="https://www.linkedin.com/in/emorenkov/">
                     <i class="fab fa-linkedin-in"></i>
@@ -95,8 +95,7 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Senior Backend engineer</h3>
                     <div class="subheading mb-3"><a href="https://therundown.io/">TheRundown</a></div>
-                    <p>Work on performance, add fast caching, upgrade system, migrate present codebase to modern go
-                        modules, work on REST API.</p>
+                    <p>Work on performance, fast caching, system upgrade, legacy codebase migration to modern practices, REST API enhancements.</p>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">July 2019 - Present</span>
@@ -107,8 +106,9 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Golang CLI developer</h3>
                     <div class="subheading mb-3"><a href="https://qordoba.com/">Qordoba</a></div>
-                    <p>Develop CLI for different platforms for simple work with provided API</p>
-                    <p>CLI is available <a href="https://github.com/Qordobacode/Cli-qor">here</a></p>
+                    <p>Develop CLI for Qordoba API, provide homebrew scripts for an easy application install
+                    </p>
+                    <p>CLI's code is open and available here <a href="https://github.com/Qordobacode/Cli-qor">here</a></p>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">April 2019 - October 2019</span>
@@ -251,46 +251,46 @@
 
             <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/Go-Logo_LightBlue.png" alt="go">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/Go-Logo_LightBlue.png" alt="go">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/Moby-logo.png" alt="docker">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/Moby-logo.png" alt="docker">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/kubernetes.png" alt="kubernetes">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/kubernetes.png" alt="kubernetes">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/mysql.png" alt="mysql">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/mysql.png" alt="mysql">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/postgre.png" alt="postgresql">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/postgre.png" alt="postgresql">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/mongodb-96.png" alt="mongodb">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/mongodb-96.png" alt="mongodb">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/redis.png" alt="redis">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/redis.png" alt="redis">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="110" height="64" src="img/aws_logo.png" alt="aws">
+                    <img class="lazyload skill-icons" width="110" height="64" data-src="img/aws_logo.png" alt="aws">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/kafka.png" alt="kafka">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/kafka.png" alt="kafka">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/linux.png" alt="linux">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/linux.png" alt="linux">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/elasticsearch.png" alt="elasticsearch">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/elasticsearch.png" alt="elasticsearch">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/java-96.png" alt="java">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/java-96.png" alt="java">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/javascript-96.png" alt="js">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/javascript-96.png" alt="js">
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="48" height="48" src="img/React.js_logo-512.png" alt="react.js">
+                    <img class="lazyload skill-icons" width="48" height="48" data-src="img/React.js_logo-512.png" alt="react.js">
                 </li>
             </ul>
         </div>
@@ -303,12 +303,12 @@
             <h2 class="mb-5">Certifications</h2>
             <ul class="fa-ul mb-0">
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="200" height="200" src="img/kubernetes-ckad-color.png" alt="CKAD">
+                    <img class="lazyload skill-icons" width="200" height="200" data-src="img/kubernetes-ckad-color.png" alt="CKAD">
                     <br>
                     <span>CKAD (2019)</span>
                 </li>
                 <li class="list-inline-item">
-                    <img class="skill-icons" width="200" height="200" src="img/mongodb-badges-dev.png" alt="mongoDB Developer">
+                    <img class="lazyload skill-icons" width="200" height="200" data-src="img/mongodb-badges-dev.png" alt="mongoDB Developer">
                     <br>
                     MongoDB Certified Developer(2016)
                 </li>
